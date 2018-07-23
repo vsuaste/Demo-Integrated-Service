@@ -1,0 +1,24 @@
+{
+  "name": "integrated-service",
+  "version": "1.0.0",
+  "description": "This is a sample server which integrates local databases with existing webservices. In this case we are connecting the model Specie, taken from http://enciclovida.mx/especies, and one  two models Researcher and Experiment stored in a local database.",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "connect": "^3.2.0",
+    "js-yaml": "^3.3.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0",
+    "swagger-tools": "0.10.1"
+  }
+}
